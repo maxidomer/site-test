@@ -1,0 +1,54 @@
+@font-face {
+  font-family: ubuntu-regular;
+  scr: local("Ubuntu-Regular"),
+  url(fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+body{
+  font-family: ubuntu-regular;
+}
+[href="#timerir"] {
+color:orange
+}
+h1, h2, h3, h4, h5, h6, p {
+  color: black
+}
+.div1 {
+  height: 100px;
+  width: 100px;
+  background-color: #000;
+  background-image: url(icon512.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px, solid, #fff; /*можно dotted,dashed,solid*/
+  border-bottom-width: 50px;
+  border-bottom-color: #aaa;
+  border-right-style: dotted;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.3);
+
+  /* background-attachment: fixed; */
+}
+.box1 {
+  height: auto;
+  width: 500px;
+  background-color: #aaa;
+  font-size: 20px; /* 2em = 32 = parent * 2 */
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+/*
+--text: #eae9fc;
+--background: #010104;
+--primary: #4a42e0;
+--secondary: #221646;
+--accent: #7b00ff;
+*/
