@@ -20,3 +20,12 @@ function getCookie( key ) {
 
 
 setCookie('user','miker mcmcm,12345', 7)
+
+const list = document.getElementById('lister')
+let i,value = getCookie('user')
+if (value.indexOf(',')) {
+  value = value.split(',')
+}
+for (i = 0; i < value.length; i++) {
+  lister.innerHTML += '<li>' + value[i]
+}
